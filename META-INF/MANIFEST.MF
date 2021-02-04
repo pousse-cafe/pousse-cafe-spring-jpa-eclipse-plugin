@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pousse-Café Spring JPA Eclipse Plugin
+Bundle-SymbolicName: poussecafe.spring.jpa.eclipse.plugin
+Bundle-Version: 0.5.0.202102031536
+Bundle-ClassPath: pousse-cafe-spring-jpa-0.5.0-SNAPSHOT.jar
+Export-Package: poussecafe.spring.jpa.storage,
+ poussecafe.spring.jpa.storage.codegeneration
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: poussecafe.spring.jpa.eclipse.plugin
+Require-Bundle: org.eclipse.jdt.core;bundle-version="3.24.0",
+ org.slf4j.api;bundle-version="1.7.30",
+ poussecafe.base.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.attribute.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.core.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.source.eclipse.plugin;bundle-version="0.27.0"
